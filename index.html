@@ -1,0 +1,27 @@
+<!-- https://github.com/paulzi/svg-text-to-path -->
+<!-- https://www.w3schools.com/howto/howto_html_include.asp -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SVG</title>
+    <script src="/script_include_html.js"></script>
+    <script src="/script_convert_svg.js"></script>
+    <script src="/script_save_svg.js"></script>
+    <script src="/svg-text-to-path-fontkit.js"></script>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div class="cols">
+      <div class="cols__item _svg" w3-include-html="/feelings.svg"></div>
+      <script>
+        includeHTML();
+      </script>
+      <div class="cols__item _result">
+        <pre id="result"><svg></svg></pre>
+        <button onclick="convert()">Convert</button>
+        <button onclick="save_svg(fileName, 'text/html')">Save</button>
+      </div>
+    </div>
+  </body>
+</html>
