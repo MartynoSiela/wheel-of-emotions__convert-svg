@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This repository is part of a bigger project: an app which has a clickable, spinnable wheel of emotions ([example](http://images.google.com/images?q=emotion_wheel)).
+This repository is part of a bigger project: an app which has a clickable, spinnable wheel of emotions ([example](http://images.google.com/images?q=emotion%20wheel)).
 
 The code in this repository provides a way to convert svg `<text>` to `<path>`. This is needed because Android Studio does not support `<text>` in svg files.
 
